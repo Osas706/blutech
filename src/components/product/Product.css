@@ -17,12 +17,24 @@
     border-radius: 4px;
     object-fit: cover;
   }
+
+  span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #262626;
+    font-size: 12px;
+
+  }
+
+  .brand {
+    margin-left: 10px;
+  }
 }
 
-
-.div{
-    height: 1px;
-    background-color: gray;
-    width: 1300px;
-    margin: 0px auto 20px ;
+.div {
+  height: 1px;
+  background-color: gray;
+  width: 1300px;
+  margin: 0px auto 20px;
 }

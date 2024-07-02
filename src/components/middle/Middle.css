@@ -2,6 +2,12 @@
     width: 1440px;
     padding: 20px 30px;
 
+    .error{
+        color: red;
+        align-self: center;
+        font-size: 12px;
+    }
+
     h1{
         font-weight: 500;
         font-size: 18px;

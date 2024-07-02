@@ -8,14 +8,14 @@ const Product = ({ product }) => {
         <div></div>
 
         <span>{product.id}.</span>
-        <img src={product.image} alt="" />
-        <span>{product.sku}</span>
-        <span>{product.name}</span>
-        <span>{product.title}</span>
-        <span>{product.description}</span>
-        <span>{product.brand}</span>
+        <img src={product.Image_1} alt="" />
+        <span>{product.SKU}</span>
+        <span>{product.Name}</span>
+        <span>{product.Title}</span>
+        <span>{product.Description}</span>
+        <span className="brand">{product.Brand}</span>
         <span>{product.cost}</span>
-        <span>{product.qty}</span>
+        <span>{product.quantity}</span>
         <span>{product.size}</span>
       </div>
 

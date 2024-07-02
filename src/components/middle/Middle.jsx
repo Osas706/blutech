@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Middle.css';
+import { ApiContext } from '../../context/apiContext';
 
 const Middle = () => {
+  const {error, loading} = useContext(ApiContext);
   return (
     <div className='middle'>
+       {error && <span className='error'>{error}</span>}
+       {loading === true ? <span>Loading...</span> : ''}
        <h1>Department List</h1>
 
        <div className="info-title">
