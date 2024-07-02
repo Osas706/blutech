@@ -13,4 +13,6 @@ Steps:
 ** converted my figma design to jsx ,
 ** created a json file for dummy product details,
 ** mapped through my product details to display dummy details,
-** created my apiContext
+** created my apiContext to create my functions and manage my state
+** install axios for fetching data after using the search bar
+** pushed finished codes to repo 
