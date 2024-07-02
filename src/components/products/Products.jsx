@@ -6,7 +6,8 @@ import { ApiContext } from '../../context/apiContext';
 
 const Products = () => {
   const {newProduct} = useContext(ApiContext);
-  console.log(newProduct);
+  // console.log(newProduct);
+  
   return (
     <div className='products'>
       {
