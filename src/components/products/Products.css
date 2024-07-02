@@ -1,0 +1,11 @@
+.products{
+    background-color: #fff;
+    margin: 10px 30px;
+    width: 1348px;
+    padding: 10px 10px;
+    height: 550px;
+    border-radius: 10px;
+
+    overflow: scroll;
+
+}
