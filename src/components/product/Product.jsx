@@ -15,7 +15,7 @@ const Product = ({ product }) => {
         <span>{product.Description}</span>
         <span className="brand">{product.Brand}</span>
         <span>{product.cost}</span>
-        <span>{product.quantity}</span>
+        <span>{product.Quantity}</span>
         <span>{product.size}</span>
       </div>
 
